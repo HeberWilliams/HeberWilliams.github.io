@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 85px;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.define {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.table {
+    font-size: 20px;
+    overflow-x: auto;
+    box-sizing: inherit;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+
+table.table tr td {
+    border: 2px solid black;
+    margin: auto;
+    font-size: 30px;
+}
+
+table.table tr th {
+    background-color: slategray;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.selector {
+    background-color: #F0F0F0;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+footer p {
+    margin-top: 120px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    font-family: ui-rounded;
+
+}
