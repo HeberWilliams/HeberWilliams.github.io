@@ -2,13 +2,14 @@
 body {
     background: whitesmoke;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 /* Nav bar */
 header {
     background: #1E232E;
     display: flex;
     margin: 0;
-    padding: 0%;
+    height: 119px;
     align-items: center;
     justify-content: space-between;
 }
