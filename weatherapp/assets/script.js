@@ -23,7 +23,7 @@ let weather = {
         document.querySelector(".humidity").innerText = `Humidity: ${humidity}%`;
         document.querySelector(".wind").innerText = `Wind Speed: ${speed}MPH`;
 
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name +"'"
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/2000x1200/?" + name +"'"
         },
     search: function () {
         this.fetchWeather(document.querySelector(".search-bar").value);
